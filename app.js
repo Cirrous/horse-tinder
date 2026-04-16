@@ -4,7 +4,7 @@ const horses = [
     name: "Fury der beste",
     age: 8,
     desc: "Liebt Äpfel, hasst Montage.",
-    img: "https://loremflickr.com/300/200/cat",
+    img: "https://loremflickr.com/300/200/horse,stallion",
   },
   {
     name: "Pummelchen",
