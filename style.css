@@ -1,0 +1,65 @@
+body {
+  background-color: #f4f1ea;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.actions {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #5d4037;
+  color: white;
+}
+
+/* Der Premium-Button */
+.-gold {
+  background: linear-gradient(45deg, #d4af37, #f9f295, #b8860b);
+  color: #432e03;
+  border: 2px solid #b8860b;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(184, 134, 11, 0.4);
+  outline: none;
+}
+
+.-gold:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 6px 20px rgba(184, 134, 11, 0.6);
+  background: linear-gradient(45deg, #b8860b, #f9f295, #d4af37);
+}
+
+.-gold:active {
+  transform: scale(0.98);
+}

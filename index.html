@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>StallionSwipe - Wer wiehert heute?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Horse Tinder</h1>
+      <h2>Find your Stallion 🐴</h1>
+      <div class="card" id="horse-card">
+        <img src="https://loremflickr.com/300/200/horse,stallion?lock=1" alt="Pferd" id="horse-img" />
+        <h2 id="horse-name">Fury</h2>
+        <p id="horse-desc">5 Jahre, liebt Äpfel, hasst Montage.</p>
+      </div>
+
+      <div class="actions">
+        <button onclick="swipe('links')">❌ Heu-Korb</button>
+        <button onclick="swipe('rechts')">❤️ Wiehern</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
