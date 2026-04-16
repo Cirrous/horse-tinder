@@ -1,8 +1,8 @@
 // Unsere Datenbank der heiratswilligen Huftiere
 const horses = [
   {
-    name: "Fury der beste",
-    age: 8,
+    name: "Fury der schlechteste",
+    age: 12,
     desc: "Liebt Äpfel, hasst Montage.",
     img: "https://loremflickr.com/300/200/horse,stallion",
   },
