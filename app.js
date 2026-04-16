@@ -2,7 +2,7 @@
 const horses = [
   {
     name: "Fury der besteeeeeeee",
-    age: 14,
+    age: 12,
     desc: "Liebt Äpfel, hasst Montage.",
     img: "https://loremflickr.com/300/200/horse,stallion",
   },
